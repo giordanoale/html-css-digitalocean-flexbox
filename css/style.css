@@ -74,7 +74,7 @@ h3 {
   }
 
   .interline img {
-    flex-basis: calc((100% / 3) - 10px);
+    flex-basis: calc(50% - 10px);
   }
 
 }
@@ -82,7 +82,7 @@ h3 {
 @media screen and (max-width: 765px) {
 
   .interline img {
-    flex-basis: calc(50% - 10px);
+    flex-basis: calc(100% - 10px);
   }
 
 }
