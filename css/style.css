@@ -1,0 +1,149 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Mix */
+.text_blu {
+  color: #0C61FF;
+}
+.text_blu a{
+  text-decoration: none;
+  color: #0C61FF;
+}
+
+.text_blu a:hover {
+  color: #1733FF;
+}
+
+.text_grey {
+  color: grey;
+}
+
+.bg_grey {
+  background-color: #F3F5FA;
+}
+/* /Mix */
+
+/* Typo */
+h2 {
+  color: #031b4e;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+h3 {
+  color: #031b4e;
+}
+/* Typo */
+
+/* interlinea */
+.interline {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #f3f5fa;
+  text-align: center;
+}
+
+.interline p {
+  margin-top: 30px;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.interline_img{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+
+}
+
+@media screen and (max-width: 992px) {
+
+  .interline_img {
+    flex-wrap: wrap;
+  }
+
+  .interline img {
+    flex-basis: calc((100% / 3) - 10px);
+    margin: 5px;
+  }
+
+}
+
+@media screen and (max-width: 765px) {
+
+  .interline img {
+    flex-basis: calc(50% - 10px);
+  }
+
+}
+/* /interlinea */
+
+/* sezione deploy */
+.deploy {
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.deploy_text {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.deploy p {
+  font-size: 21px;
+}
+
+.big_container {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  margin-top: 50px;
+}
+
+.deploy_menu_container {
+  width: 30%;
+}
+
+.deploy_menu li{
+  list-style: none;
+  text-align: left;
+  border-left: 1px solid lightgrey;
+  padding: 10px;
+}
+
+.deploy_menu li:hover {
+  border-left: 2px solid #1733FF;
+}
+
+.deploy_menu li a{
+  color: grey;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.deploy_menu li a:hover {
+  color: #0C61FF;
+}
+
+.deploy_tile_container {
+  width: 70%;
+  display: flex;
+}
+
+
+.deploy_tile {
+  flex-basis: calc(50% - 10px);
+  text-align: left;
+  margin: 20px 0;
+}
+/* /sezione deploy */

@@ -1,0 +1,16 @@
+/* barra di navigazione */
+.main_nav {
+  height: 800px;
+  width: 100px;
+  position: fixed;
+  left: 0;
+  background-color: black;
+}
+
+.timeline{
+  vertical-align: middle;
+}
+
+.timeline ul li{
+  list-style: none;
+}
